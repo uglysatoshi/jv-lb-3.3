@@ -12,7 +12,7 @@ public class Main {
     }
     public static void Base() {
         System.out.print("Введите количество элементов последовательности: "); int N = in.nextInt();
-        double result = 1;
+        double result = 1; // приравниваем result первому слагаемому последовательности
         System.out.print("Введите x (x > 0): "); double x = in.nextDouble();
         for(int i = 1; i <= N-1; i++) {
             // условие для избежания деления на ноль
